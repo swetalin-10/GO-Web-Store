@@ -3,9 +3,11 @@ import { DownloadApp } from "./download-app.mjs";
 import { getQueryParam } from "./query-param.mjs";
 import { CarouselComponent } from "./carousel-component.mjs";
 import { AppDetailsComponent } from "./app-details.mjs";
+import { DisclaimerBanner } from "./disclaimer-banner.mjs";
 
 if (localStorage.getItem("store") === null) getApps("", true);
 
+customElements.define("disclaimer-banner", DisclaimerBanner);
 customElements.define("download-app", DownloadApp);
 customElements.define("carousel-component", CarouselComponent);
 customElements.define("app-details", AppDetailsComponent);

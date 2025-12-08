@@ -4,7 +4,6 @@ const CACHE_ASSETS = [
   "./index.html",
   "./app.html",
   "./styles/style.css",
-  "./assets/Back.svg",
   "./assets/Go Web Store.svg",
   "./assets/No Results.svg",
   "./assets/Cancel.svg",

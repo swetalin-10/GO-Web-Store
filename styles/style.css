@@ -134,12 +134,8 @@ header {
     background-color: var(--md-sys-color-background);
 }
 
-header a {
-    position: relative;
-    display: inline-block;
-    padding: 15px;
-    margin: 15px;
-    border-radius: 50%;
+header md-icon-button {
+    margin: 10px;
 }
 
 carousel-component,
