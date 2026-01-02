@@ -132,6 +132,29 @@ The **Badging API** allows web applications to display small status indicators (
 - **Calendar Apps:** Highlight upcoming events or meetings.
 - **Fitness Apps:** Remind users of pending goals (e.g., "Steps left: 500").
 
+---
+
+
+## Running the Project Locally
+
+This project is a static web application built with HTML, CSS, and JavaScript.
+
+To run it locally:
+
+1. Clone the repository.
+2. Open the project folder in VS Code.
+3. Open `index.html` using a local server (recommended).
+
+### Using Live Server (Recommended)
+- Install the **Live Server** extension in VS Code.
+- Right-click on `index.html`.
+- Click **Open with Live Server**.
+
+This ensures all JavaScript files load correctly.
+
+
+---
+
 
 ## Contributing  
 
@@ -141,7 +164,7 @@ Contributions to the GO Web Store and its underlying technology are welcome! To 
 2. Follow the [Data Repository](https://github.com/LiquidGalaxyLAB/Data) guidelines for app submissions.  
 3. Open a pull request with your changes.  
 
----
+
 
 ## Acknowledgments  
 
